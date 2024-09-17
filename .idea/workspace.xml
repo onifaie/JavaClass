@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b255e26-0965-4b5a-88d0-7aeec5d0e142" name="Changes" comment="push-to-Spring-Bransh">
+    <list default="true" id="0b255e26-0965-4b5a-88d0-7aeec5d0e142" name="Changes" comment="Add-Msg-Funcation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1.java" afterDir="false" />
@@ -22,6 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -102,6 +108,8 @@
       <workItem from="1726607790997" duration="306000" />
       <workItem from="1726608103926" duration="330000" />
       <workItem from="1726608440914" duration="482000" />
+      <workItem from="1726608931422" duration="745000" />
+      <workItem from="1726609875724" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="frist-upload">
       <option name="closed" value="true" />
@@ -119,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726608235180</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add-Msg-Funcation">
+      <option name="closed" value="true" />
+      <created>1726608997883</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726608997883</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="frist-upload" />
     <MESSAGE value="push-to-Spring-Bransh" />
-    <option name="LAST_COMMIT_MESSAGE" value="push-to-Spring-Bransh" />
+    <MESSAGE value="Add-Msg-Funcation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add-Msg-Funcation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

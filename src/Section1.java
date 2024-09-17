@@ -21,4 +21,8 @@ public class Section1 {
         return msg;
 
     }
+    public String MSGEmail(String msg){
+        return msg;
+
+    }
 }
