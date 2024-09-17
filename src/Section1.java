@@ -17,4 +17,8 @@ public class Section1 {
         return x/y;
 
     }
+    public String MSG(String msg){
+        return msg;
+
+    }
 }
