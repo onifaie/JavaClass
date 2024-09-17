@@ -7,6 +7,8 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Section1 s1 = new Section1();
+        Section3 s3 = new Section3();
+
 
 
         System.out.println("Hello world!");
@@ -16,6 +18,7 @@ public class Main {
         System.out.println(s1.MSG("hello Obeid ab Majed are you ok Today ...."));
         System.out.println(s1.MSG("Obeid"));
         System.out.println(s1.MSGEmail("Email Sended ...."));
+        System.out.println(s3.TrueFalse(-4));
 
         
     }

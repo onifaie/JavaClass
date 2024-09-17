@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b255e26-0965-4b5a-88d0-7aeec5d0e142" name="Changes" comment="Add-Msg-Funcation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1.java" afterDir="false" />
-    </list>
+    <list default="true" id="0b255e26-0965-4b5a-88d0-7aeec5d0e142" name="Changes" comment="Add-Section2Class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +20,8 @@
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +51,6 @@
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -109,7 +104,8 @@
       <workItem from="1726608103926" duration="330000" />
       <workItem from="1726608440914" duration="482000" />
       <workItem from="1726608931422" duration="745000" />
-      <workItem from="1726609875724" duration="53000" />
+      <workItem from="1726609875724" duration="242000" />
+      <workItem from="1726610125401" duration="233000" />
     </task>
     <task id="LOCAL-00001" summary="frist-upload">
       <option name="closed" value="true" />
@@ -135,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726608997883</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add-Section2Class">
+      <option name="closed" value="true" />
+      <created>1726610025762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726610025762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,14 +149,15 @@
     <MESSAGE value="frist-upload" />
     <MESSAGE value="push-to-Spring-Bransh" />
     <MESSAGE value="Add-Msg-Funcation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add-Msg-Funcation" />
+    <MESSAGE value="Add-Section2Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add-Section2Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
