@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println(s1.sum(3,5));
         System.out.println(s1.Minc(40,22));
+        System.out.println(s1.Plus(40,22));
 
         
     }

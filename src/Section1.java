@@ -12,4 +12,9 @@ public class Section1 {
         return x-y;
 
     }
+
+    public int Plus(int x, int y ){
+        return x/y;
+
+    }
 }
