@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b255e26-0965-4b5a-88d0-7aeec5d0e142" name="Changes" comment="Add-Section5-3">
-      <change afterPath="$PROJECT_DIR$/src/HomePage.html" afterDir="false" />
+    <list default="true" id="0b255e26-0965-4b5a-88d0-7aeec5d0e142" name="Changes" comment="add-Readme">
+      <change afterPath="$PROJECT_DIR$/src/Database/ConnectionAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,6 +35,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,33 +56,42 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2mDLVH7N7TaqwyUByRvYD3tVtXg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Students.executor": "Run",
+    "Application.forloop.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Java",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Students">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Project1" />
@@ -83,9 +99,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Countrol.Students" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Countrol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicJava.forloop" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Students" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.forloop" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +175,17 @@
       <workItem from="1726612634190" duration="162000" />
       <workItem from="1726612806568" duration="114000" />
       <workItem from="1726612927827" duration="86000" />
-      <workItem from="1726613018588" duration="155000" />
+      <workItem from="1726613018588" duration="1524000" />
+      <workItem from="1726615733243" duration="473000" />
+      <workItem from="1726616217379" duration="59000" />
+      <workItem from="1726616280755" duration="38000" />
+      <workItem from="1726616323823" duration="97000" />
+      <workItem from="1726616426826" duration="711000" />
+      <workItem from="1726617192729" duration="1082000" />
+      <workItem from="1726618378468" duration="1008000" />
+      <workItem from="1726661469806" duration="2312000" />
+      <workItem from="1726680676919" duration="397000" />
+      <workItem from="1726681086372" duration="4848000" />
     </task>
     <task id="LOCAL-00001" summary="frist-upload">
       <option name="closed" value="true" />
@@ -213,7 +267,55 @@
       <option name="project" value="LOCAL" />
       <updated>1726611475028</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add-HomePage">
+      <option name="closed" value="true" />
+      <created>1726613218222</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726613218222</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add-ForLoop">
+      <option name="closed" value="true" />
+      <created>1726682851605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726682851605</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add-IFStatment">
+      <option name="closed" value="true" />
+      <created>1726683157476</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726683157476</updated>
+    </task>
+    <task id="LOCAL-00014" summary="اضافة مجدلد التحكم">
+      <option name="closed" value="true" />
+      <created>1726687401042</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726687401042</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add-Class-StudentInfo">
+      <option name="closed" value="true" />
+      <created>1726687564375</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726687564375</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add-Readme">
+      <option name="closed" value="true" />
+      <created>1726696285417</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726696285417</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,14 +330,20 @@
     <MESSAGE value="Add-Section3Class2" />
     <MESSAGE value="Add-Section4" />
     <MESSAGE value="Add-Section5-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add-Section5-3" />
+    <MESSAGE value="Add-HomePage" />
+    <MESSAGE value="Add-ForLoop" />
+    <MESSAGE value="Add-IFStatment" />
+    <MESSAGE value="اضافة مجدلد التحكم" />
+    <MESSAGE value="add-Class-StudentInfo" />
+    <MESSAGE value="add-Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add-Readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

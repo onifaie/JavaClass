@@ -5,6 +5,7 @@ import java.util.*;
 
 import BasicJava.Emp;
 import BasicJava.forloop;
+import Fstatment.UseStatment;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class Main {
         Section3 s3 = new Section3();
         forloop l1 = new forloop();
         Emp e1 = new Emp();
+        UseStatment st=new UseStatment();
+
 
 
 
@@ -25,6 +28,7 @@ public class Main {
 //        System.out.println(s3.TrueFalse(-4));
 //        System.out.println(e1.empno( + 9,10 ));
         System.out.println(l1.Number(4));
+        System.out.println(st.pp());
 
 
         
