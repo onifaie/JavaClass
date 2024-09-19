@@ -4,43 +4,43 @@
 import java.sql.Connection;
 import java.util.*;
 
-import BasicJava.Emp;
-import BasicJava.forloop;
-import Database.looping;
-import Fstatment.UseStatment;
-import  Database.ConnectionAPI;
-import ODT.Gann;
-
 public class Main {
     public static void main(String[] args) {
-
-ConnectionAPI c1=new ConnectionAPI();
-looping m1=new looping();
-
-
-//c1.sum(2,3);
-
-//     c1.old(23.5);
-//     c1.msg();
-
-//     int p = c1.TowNumber(2,7);
-//        System.out.println(p);
-
-
-//        int k = c1.loopNumber(7);
-//        System.out.println(k);
-
-
-//        m1.myloop(10);
-
-        Gann g1=new Gann();
-        g1.PrintGann();
-
+//        System.out.println("-----------Begin Programming---------");
+//        getCounterValue(10);
+//        System.out.println(calculateGannLevels(100,80));
+//        printGannLevels(calculateGannLevels(5723.88,5686.42));
+//        System.out.println(checkStudentGrade(101));
 
     }
 
 
 
 
-     
+
+    private static int getCounterValue(int limit) {
+        int counter = 0;
+        for (int i = 0; i < limit; i++) {
+            System.out.println(counter++);
+            System.out.println(checkStudentGrade(95));
+        }
+        return counter;
+    }
+
+
+    private static String checkStudentGrade(int grade) {
+        if (grade >= 90) {
+            return "Excellent";
+        } else if (grade >= 75) {
+            return "Very Good";
+        } else if (grade >= 60) {
+            return "Good";
+        } else {
+            return "Needs Improvement";
+        }
+    }
+
+
+
 }
+
