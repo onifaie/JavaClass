@@ -1,5 +1,4 @@
-
-![alt text](https://www.guru99.com/images/1/081319_1354_JavaSpringT1.png)
+<img alt="alt text" height="300" src="https://www.guru99.com/images/1/081319_1354_JavaSpringT1.png" width="300"/>
 
 ### Spring Boot , Data , Scuirity , Cluod , Microservers  
 
