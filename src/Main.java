@@ -1,38 +1,44 @@
 
 
 
+import java.sql.Connection;
 import java.util.*;
 
 import BasicJava.Emp;
 import BasicJava.forloop;
+import Database.looping;
 import Fstatment.UseStatment;
+import  Database.ConnectionAPI;
+import ODT.Gann;
 
 public class Main {
     public static void main(String[] args) {
-        Section1 s1 = new Section1();
-        Section3 s3 = new Section3();
-        forloop l1 = new forloop();
-        Emp e1 = new Emp();
-        UseStatment st=new UseStatment();
+
+ConnectionAPI c1=new ConnectionAPI();
+looping m1=new looping();
 
 
+//c1.sum(2,3);
+
+//     c1.old(23.5);
+//     c1.msg();
+
+//     int p = c1.TowNumber(2,7);
+//        System.out.println(p);
 
 
-//        System.out.println("Hello world!");
-//        System.out.println(s1.sum(3,5));
-//        System.out.println(s1.Minc(40,22));
-//        System.out.println(s1.Plus(40,22));
-//        System.out.println(s1.MSG("hello Obeid ab Majed are you ok Today ...."));
-//        System.out.println(s1.MSG("Obeid"));
-//        System.out.println(s1.MSGEmail("Email Sended ...."));
-//        System.out.println(s3.TrueFalse(-4));
-//        System.out.println(e1.empno( + 9,10 ));
-        System.out.println(l1.Number(4));
-        System.out.println(st.pp());
+//        int k = c1.loopNumber(7);
+//        System.out.println(k);
 
 
-        
+//        m1.myloop(10);
+
+        Gann g1=new Gann();
+        g1.PrintGann();
+
+
     }
+
 
 
 
