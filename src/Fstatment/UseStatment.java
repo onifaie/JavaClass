@@ -16,4 +16,7 @@ public class UseStatment {
      // mothed add tow Number
 
 
+    public void write(){
+        System.out.println("this come fRom Class UseStatment...");
+    }
 }
