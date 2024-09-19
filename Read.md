@@ -10,3 +10,18 @@
 
 
 -------------------------
+
+## this Class  Sectons  4 :- 
+* Begin Java Class  3 weeks , 
+* InterMeda  Java Class 3 weeks , 
+* Advince  Java Class 3 weeks 
+------------------------------
+## Database Sections :- 
+* Spring Data JPA 
+* how Connection with MYSQL 
+* Create GRUD Oprations 
+* Relation Table or Models 
+* one To many 
+* Moany To many 
+* Insert , update , Delete , Edite 
+------------------------------
