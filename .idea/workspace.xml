@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b255e26-0965-4b5a-88d0-7aeec5d0e142" name="Changes" comment="add-ClassFiles">
-      <change afterPath="$PROJECT_DIR$/src/Database/looping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ODT/Gann.java" afterDir="false" />
+    <list default="true" id="0b255e26-0965-4b5a-88d0-7aeec5d0e142" name="Changes" comment="add-SPX500">
+      <change afterPath="$PROJECT_DIR$/src/Controller/useif.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/ConnectionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/ConnectionAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fstatment/UseStatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fstatment/UseStatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GannLevels/Gannlevels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GannLevels/Gannlevels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/onifaie/JavaClass.git&quot;,
-    &quot;accountId&quot;: &quot;334da6c0-d99e-4636-afb4-9a0aef12c08c&quot;
+    &quot;accountId&quot;: &quot;bbe9b742-94c0-435e-81b6-593067f31c69&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -72,31 +70,32 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Gann.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Students.executor": "Run",
-    "Application.forloop.executor": "Run",
-    "Application.looping.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "Java",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Public/Documents/obeid/Project1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Gann.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Gannlevels.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Students.executor&quot;: &quot;Run&quot;,
+    &quot;Application.forloop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.looping.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Java&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/Documents/obeid/Project1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Gann" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ODT.Gann" />
@@ -104,6 +103,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ODT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gannlevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GannLevels.Gannlevels" />
+      <module name="Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GannLevels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="forloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicJava.forloop" />
-      <module name="Project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="looping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Database.looping" />
       <module name="Project1" />
@@ -160,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Gannlevels" />
         <item itemvalue="Application.Gann" />
         <item itemvalue="Application.looping" />
         <item itemvalue="Application.Students" />
-        <item itemvalue="Application.forloop" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +222,8 @@
       <workItem from="1726696912501" duration="2740000" />
       <workItem from="1726699794582" duration="83000" />
       <workItem from="1726699902049" duration="2552000" />
-      <workItem from="1726754940040" duration="4913000" />
+      <workItem from="1726754940040" duration="14898000" />
+      <workItem from="1726895742522" duration="1327000" />
     </task>
     <task id="LOCAL-00001" summary="frist-upload">
       <option name="closed" value="true" />
@@ -369,7 +369,119 @@
       <option name="project" value="LOCAL" />
       <updated>1726759985878</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add-ClassFiles">
+      <option name="closed" value="true" />
+      <created>1726760070540</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726760070540</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add-ClassFiles">
+      <option name="closed" value="true" />
+      <created>1726760395617</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726760395617</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add-GannLevels">
+      <option name="closed" value="true" />
+      <created>1726763826426</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726763826426</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add-GannLevels">
+      <option name="closed" value="true" />
+      <created>1726764841537</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726764841537</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update-ReadMe-File">
+      <option name="closed" value="true" />
+      <created>1726765671264</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1726765671264</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update-ReadMe-File">
+      <option name="closed" value="true" />
+      <created>1726765814239</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726765814239</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update-ReadMe-File">
+      <option name="closed" value="true" />
+      <created>1726766003832</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1726766003832</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update-ReadMe-File">
+      <option name="closed" value="true" />
+      <created>1726766246970</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1726766246970</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update-ReadMe-File">
+      <option name="closed" value="true" />
+      <created>1726766651818</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1726766651818</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update-ReadMe-File">
+      <option name="closed" value="true" />
+      <created>1726766997373</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726766997373</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update-ReadMe-File">
+      <option name="closed" value="true" />
+      <created>1726767036983</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1726767036983</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add-StudentClass">
+      <option name="closed" value="true" />
+      <created>1726770817716</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1726770817716</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add-SPX500">
+      <option name="closed" value="true" />
+      <created>1726771649161</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726771649161</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add-SPX500">
+      <option name="closed" value="true" />
+      <created>1726771691345</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726771691345</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +504,11 @@
     <MESSAGE value="add-Readme" />
     <MESSAGE value="add-ConnectionDatabase" />
     <MESSAGE value="add-ClassFiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add-ClassFiles" />
+    <MESSAGE value="add-GannLevels" />
+    <MESSAGE value="update-ReadMe-File" />
+    <MESSAGE value="add-StudentClass" />
+    <MESSAGE value="add-SPX500" />
+    <option name="LAST_COMMIT_MESSAGE" value="add-SPX500" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
