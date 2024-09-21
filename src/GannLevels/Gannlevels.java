@@ -28,6 +28,9 @@ public class Gannlevels {
     public static void main(String[] args) {
 
         System.out.println(printGannLevels(calculateGannLevels(5533,5616)));
+        StudentGrade st =new StudentGrade();
+        System.out.println(st.checkStudentGrade(92));
+
 
     }
 }

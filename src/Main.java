@@ -1,6 +1,8 @@
 
 
 
+import Controller.useif;
+
 import java.sql.Connection;
 import java.util.*;
 
@@ -11,6 +13,8 @@ public class Main {
 //        System.out.println(calculateGannLevels(100,80));
 //        printGannLevels(calculateGannLevels(5723.88,5686.42));
 //        System.out.println(checkStudentGrade(101));
+        useif d = new useif();
+        System.out.println(d.cheak(90));
 
     }
 
